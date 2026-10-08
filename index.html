@@ -84,26 +84,37 @@
             </div>
         </header>
 
-        <div class="w3-top">
-            <nav class="w3-flex" id="myNavbar">
-                <a href="#home" class="w3-button" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"><i class="fa fa-bars"></i> INICIO</a>
+        <nav class="w3-top">
+            <h2 style="display: none">Menu Principal</h2>
 
-                <a href="#sobremi" class="w3-button w3-hide-small" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"> <i class="fa fa-female"></i> SOBRE MI </a>
+            <ul class="w3-flex" id="myNavbar" style="list-style: none">
+                <li>
+                    <a href="#home" class="w3-button" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"><i class="fa fa-bars"></i><span> INICIO</span></a>
+                </li>
 
-                <a href="#portfolio" class="w3-button w3-hide-small" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"> <i class="fa fa-building-o"></i> PORTFOLIO </a>
+                <li>
+                    <a href="#sobremi" class="w3-button w3-hide-small" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"> <i class="fa fa-female"></i> <span>SOBRE MI</span></a>
+                </li>
 
-                <a href="#contacto" class="w3-button w3-hide-small" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"> <i class="fa fa-mobile"></i> CONTACTO </a>
+                <li>
+                    <a href="#portfolio" class="w3-button w3-hide-small" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"> <i class="fa fa-building-o"></i><span>PORTFOLIO</span></a>
+                </li>
 
-                <a href="#" class="w3-button w3-hide-small w3-hover-black" style="margin-left: auto; color: black">
-                    <i class="fa fa-eye"></i>
-                </a>
+                <li>
+                    <a href="#contacto" class="w3-button w3-hide-small" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"> <i class="fa fa-mobile"></i> <span>CONTACTO</span></a>
+                </li>
 
-                <button class="w3-button w3-hide-medium w3-hide-large" style="margin-left: auto" onclick="toggleFunction()" title="Toggle Navigation Menu">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </nav>
+                <li>
+                    <a href="#" class="w3-button w3-hide-small w3-hover-black" style="margin-left: auto; color: black">
+                        <i class="fa fa-eye"><span>BUSCAR</span></i>
+                    </a>
+                </li>
+            </ul>
+            <button class="w3-button w3-hide-medium w3-hide-large" style="margin-left: auto" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </button>
 
-            <!-- Navegación por menú -->
+            <!-- Menú móvil -->
             <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
                 <a href="#sobremi" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MI</a>
 
@@ -113,18 +124,10 @@
 
                 <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
             </div>
-        </div>
-
-        <!-- Prmera imagen fondo-->
-        <!-- <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-            <div class="w3-display-middle" style="white-space: nowrap">
-                <img src="assets/img/logo.webp" alt="Logo de Cristi W.B.P." width="300" /><br />
-                 <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> EL <span class="w3-hide-small">BLOG</span> DE CRISTI </span>
-            </div>
-        </div> -->
+        </nav>
 
         <!-- SOBRE MI -->
-        <section class="w3-content w3-container w3-padding-64" id="about" style="background-color: lime">
+        <section class="w3-content w3-container w3-padding-64" id="about">
             <h3 class="w3-center">SOBRE MI</h3>
 
             <p class="w3-center">
@@ -198,7 +201,7 @@
         </div>
 
         <!-- Portfolio -->
-        <section class="w3-content w3-container w3-padding-64" id="portfolio" style="background-color: tomato">
+        <section class="w3-content w3-container w3-padding-64" id="portfolio">
             <h3 class="w3-center">MI TRABAJO</h3>
 
             <p class="w3-center">
