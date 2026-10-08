@@ -87,7 +87,7 @@
         <nav class="w3-top">
             <h2 style="display: none">Menu Principal</h2>
 
-            <ul class="w3-flex" id="myNavbar" style="list-style: none">
+            <ul class="w3-flex w3-opacity w3-hover-opacity-off" id="myNavbar" style="list-style: none">
                 <li>
                     <a href="#home" class="w3-button" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"><i class="fa fa-home"></i><span> INICIO</span></a>
                 </li>
@@ -105,7 +105,7 @@
                 </li>
 
                 <li>
-                    <a href="#" class="w3-button w3-hide-small w3-hover-black" style="margin-left: auto; color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)">
+                    <a href="#" class="w3-button w3-hide-small" style="margin-left: auto; color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)">
                         <i class="fa fa-eye"><span> BUSCAR</span></i>
                     </a>
                 </li>
@@ -199,40 +199,41 @@
                 </article>
 
                 <!-- Segunda imágen fondo portada -->
-                <article class="bgimg-2 w3-display-container w3-opacity-min">
-                    <div class="w3-display-middle">
-                        <h3 class="w3-xxlarge w3-text-dark-grey w3-wide"><strong>PORTFOLIO</strong></h3>
-                    </div>
-                </article>
                 <article>
+                    <header class="bgimg-2 w3-display-container w3-opacity-min">
+                        <div class="w3-display-middle">
+                            <h3 class="w3-xxlarge w3-text-dark-grey w3-wide"><strong>PORTFOLIO</strong></h3>
+                        </div>
+                    </header>
+
                     <!-- Portfolio -->
                     <div class="w3-content w3-container w3-padding-64" id="portfolio">
-                        <h3 class="w3-center"><strong>MI TRABAJO</strong></h3>
+                        <h4 class="w3-center"><strong>MI TRABAJO</strong></h4>
 
                         <p class="w3-center">
                             <em> Aquí dejo algunas de los trabajos más recientes.<br /></em>
                         </p>
 
                         <div class="w3-grid w3-padding-32" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
-                            <img src="assets/img/avatarCv.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Imágen avatar del Currículum Vitae" />
+                            <img src="assets/img/avatarCv.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Imágen avatar del Currículum Vitae" />
 
-                            <img src="assets/img/codigocleopatra.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Portada libro El código de Cleopatra" />
+                            <img src="assets/img/codigocleopatra.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Portada libro El código de Cleopatra" />
 
-                            <img src="assets/img/excavadora.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Excavadora en terreno con cielo nocturno encapotado" />
+                            <img src="assets/img/excavadora.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Excavadora en terreno con cielo nocturno encapotado" />
 
-                            <img src="assets/img/gatoGris360px.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Imágen de gato British Longhair gris con ojos azules" />
+                            <img src="assets/img/gatoGris360px.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Imágen de gato British Longhair gris con ojos azules" />
 
-                            <img src="assets/img/tractor.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tractor FIAT en campo de trabajo" />
+                            <img src="assets/img/tractor.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Tractor FIAT en campo de trabajo" />
 
-                            <img src="assets/img/holamundo.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Hola Mundo!!!!" />
+                            <img src="assets/img/holamundo.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Hola Mundo!!!!" />
 
-                            <img src="assets/img/libros.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Conjunto de libros con gafas de lectura encima y el texto trabajando en más" />
+                            <img src="assets/img/libros.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Conjunto de libros con gafas de lectura encima y el texto trabajando en más" />
 
-                            <img src="assets/img/relojdearena.webp" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Reloj de arena" />
+                            <img src="assets/img/relojdearena.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Reloj de arena" />
                         </div>
 
                         <p class="w3-center">
-                            <button class="w3-button w3-padding-large w3-light-grey">CARGA MÁS</button>
+                            <button class="w3-button w3-padding-large w3-light-grey w3-opacity w3-hover-opacity-off">CARGA MÁS</button>
                         </p>
                     </div>
 
@@ -250,11 +251,11 @@
 
                 <!-- Tercera imágen fondo portada -->
                 <article>
-                    <div class="bgimg-3 w3-display-container w3-opacity-min">
+                    <header class="bgimg-3 w3-display-container w3-opacity-min">
                         <div class="w3-display-middle">
                             <h3 class="w3-xxlarge w3-text-dark-grey w3-wide"><strong>CONTACTO</strong></h3>
                         </div>
-                    </div>
+                    </header>
 
                     <!-- Contacto -->
                     <div class="w3-content w3-container w3-padding-64" id="contacto">
@@ -310,7 +311,7 @@
                 Vuelve arriba
             </a>
 
-            <ul class="w3-xlarge w3-section" style="list-style: none; display: flex; margin: 8em">
+            <ul class="w3-xlarge w3-section" style="list-style: none; display: flex">
                 <li><i class="fa fa-facebook-official w3-hover-opacity"></i></li>
                 <li><i class="fa fa-instagram w3-hover-opacity"></i></li>
                 <li><i class="fa fa-snapchat w3-hover-opacity"></i></li>
