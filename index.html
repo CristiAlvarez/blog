@@ -200,14 +200,14 @@
 
                 <!-- Segunda imágen fondo portada -->
                 <article>
-                    <header class="bgimg-2 w3-display-container w3-opacity-min">
+                    <header id="portfolio" class="bgimg-2 w3-display-container w3-opacity-min">
                         <div class="w3-display-middle">
                             <h3 class="w3-xxlarge w3-text-dark-grey w3-wide"><strong>PORTFOLIO</strong></h3>
                         </div>
                     </header>
 
                     <!-- Portfolio -->
-                    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+                    <div class="w3-content w3-container w3-padding-64">
                         <h4 class="w3-center"><strong>MI TRABAJO</strong></h4>
 
                         <p class="w3-center">
@@ -251,19 +251,17 @@
 
                 <!-- Tercera imágen fondo portada -->
                 <article>
-                    <header class="bgimg-3 w3-display-container w3-opacity-min">
+                    <header id="contacto" class="bgimg-3 w3-display-container w3-opacity-min">
                         <div class="w3-display-middle">
                             <h3 class="w3-xxlarge w3-text-dark-grey w3-wide"><strong>CONTACTO</strong></h3>
                         </div>
                     </header>
 
                     <!-- Contacto -->
-                    <div class="w3-content w3-container w3-padding-64" id="contacto">
+                    <div class="w3-content w3-container w3-padding-64">
                         <h4 class="w3-center"><strong>DÓNDE TRABAJO</strong></h4>
 
-                        <p class="w3-center">
-                            <em>Déjame tu feedback!!!</em>
-                        </p>
+                        <p class="w3-center"><em>Déjame tu feedback!!! </em><i class="fa fa-star" style="color: rgb(236, 204, 21)"></i><i class="fa fa-star" style="color: rgb(236, 204, 21)"></i><i class="fa fa-star" style="color: rgb(236, 204, 21)"></i><i class="fa fa-star-half-o" style="color: rgb(236, 204, 21)"></i><i class="fa fa-star-o" style="color: rgb(236, 204, 21)"></i></p>
 
                         <div class="w3-grid w3-padding-32 w3-opacity w3-hover-opacity-off" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px">
                             <div>
@@ -279,7 +277,7 @@
                                     <li><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"></i> Email: <a href="mailto:cristialvarez@protonmail.com">cristialvarez@protonmail.com</a></li>
                                 </ul>
 
-                                <p>Llámame <i class="fa fa-phone"> </i>, escríbeme <i class="fa fa-pencil"> </i> o ven a verme <i class="fa fa-map-marker"></i></p>
+                                <p>Llámame <i class="fa fa-phone" style="margin: 0.5em"> </i>, escríbeme <i class="fa fa-pencil" style="margin: 0.5em"> </i> o ven a verme <i class="fa fa-map-marker" style="margin: 0.5em"></i></p>
 
                                 <form action="/action_page.php" target="_blank">
                                     <div class="w3-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px">
@@ -291,8 +289,10 @@
                                     <p>
                                         <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message" />
                                     </p>
-
-                                    <button class="w3-button w3-black w3-right" type="submit">ENVIAR</button>
+                                    <ul style="list-style: none; text-align: center">
+                                        <li style="display: inline-block; margin: 1em"><button class="w3-button w3-black w3-right" type="submit">ENVIAR</button></li>
+                                        <li style="display: inline-block; margin: 1em"><button class="w3-button w3-black w3-right" type="reset">BORRAR</button></li>
+                                    </ul>
                                 </form>
                             </address>
                         </div>
