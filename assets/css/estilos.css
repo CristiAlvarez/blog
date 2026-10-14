@@ -27,10 +27,10 @@ ul li {
     display: inline-block;
 }
 
-address ul li {
+article address ul li {
     display: block;
 }
-address ul li a {
+article address ul li a {
     text-decoration: none;
 }
 
@@ -79,4 +79,8 @@ address ul li a {
 
 .pechado {
     display: none;
+}
+
+.estrellas {
+    color: rgb(236, 204, 21);
 }
