@@ -1,18 +1,21 @@
 :root {
     --color-primario: #407f7f;
-    --color-secundario: #003333;
-    --color-terciario: #669999;
+    --color-secundario: #8f0051;
+    --color-terciario: #b29200;
     --color-texto: #222;
+
+    --font-family-titles: "Cinzel Decorative", serif;
+    --font-family-texts: "Work Sans", sans-serif;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato", sans-serif;
+    font-family: var(--font-family-titles);
+    font-weight: 900;
 }
 
 body,
@@ -23,10 +26,15 @@ html {
 }
 
 html,
+article,
+figcaption,
+caption,
+legend,
 p,
 li,
 span {
-    color: var(--color-texto);
+    font-family: var(--font-family-texts);
+    font-weight: 500;
 }
 
 h1,
