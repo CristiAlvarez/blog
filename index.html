@@ -25,9 +25,9 @@
         </header>
 
         <nav class="w3-top">
-            <h2 style="display: none">Menu Principal</h2>
+            <h2 class="pechado">Menu Principal</h2>
 
-            <ul class="w3-flex w3-opacity w3-hover-opacity-off" id="myNavbar" style="list-style: none">
+            <ul class="w3-flex w3-opacity w3-hover-opacity-off" id="myNavbar">
                 <li>
                     <a href="#home" class="w3-button" style="color: whitesmoke; background-color: rgba(7, 7, 7, 0.568)"><i class="fa fa-home"></i><span> INICIO</span></a>
                 </li>
@@ -55,7 +55,7 @@
             </ul>
 
             <!-- Menú móvil -->
-            <ul id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium" style="list-style: none">
+            <ul id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
                 <li><a href="#sobremi" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MI</a></li>
 
                 <li><a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a></li>
@@ -68,7 +68,7 @@
 
         <main>
             <section>
-                <h2 style="display: none">Sobre mí y mis proyectos</h2>
+                <h2 class="pechado">Sobre mí y mis proyectos</h2>
 
                 <!-- SOBRE MI -->
                 <article class="w3-content w3-container w3-padding-64" id="sobremi">
@@ -121,8 +121,8 @@
                 <!-- Estadísticas -->
 
                 <article>
-                    <h3 style="display: none">Estadísticas</h3>
-                    <ul class="w3-grid w3-center w3-dark-grey w3-padding-16" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); list-style: none; margin: 0">
+                    <h3 class="pechado">Estadísticas</h3>
+                    <ul class="w3-grid w3-center w3-dark-grey w3-padding-16" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: 0">
                         <li class="w3-section">
                             <span class="w3-xlarge">400+</span><br />
                             Libros leídos
@@ -156,7 +156,7 @@
                             <em> Aquí dejo algunas de los trabajos más recientes.<br /></em>
                         </p>
 
-                        <ul class="w3-grid w3-padding-32" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; list-style: none">
+                        <ul class="w3-grid w3-padding-32" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px">
                             <li><img src="assets/img/avatarCv.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Imágen avatar del Currículum Vitae" /></li>
 
                             <li><img src="assets/img/codigocleopatra.webp" style="width: 100%" onclick="onClick(this)" class="w3-opacity w3-hover-opacity-off" alt="Portada libro El código de Cleopatra" /></li>
@@ -211,7 +211,7 @@
                             </div>
 
                             <address>
-                                <ul class="w3-large w3-margin-bottom" style="list-style: none">
+                                <ul class="w3-large w3-margin-bottom">
                                     <li><i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i>Lugo, ES<br /></li>
 
                                     <li><i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i>Teléfono: <a href="tel:+34665307048" title="Llámame" style="text-decoration: none">665 30 70 48</a><br /></li>
@@ -231,7 +231,7 @@
                                     <p>
                                         <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message" />
                                     </p>
-                                    <ul style="list-style: none; text-align: center">
+                                    <ul style="text-align: center">
                                         <li style="display: inline-block; margin: 1em"><button class="w3-button w3-black w3-right" type="submit">ENVIAR</button></li>
                                         <li style="display: inline-block; margin: 1em"><button class="w3-button w3-black w3-right" type="reset">BORRAR</button></li>
                                     </ul>
@@ -250,7 +250,7 @@
                 Vuelve arriba
             </a>
 
-            <ul class="w3-xlarge w3-section" style="list-style: none; padding-left: 0">
+            <ul class="w3-xlarge w3-section" style="padding-left: 0">
                 <li style="display: inline-block; margin: 1px">
                     <a href="https://www.facebook.com/cris.alvare.fernande" target="_blank" title="FaceBook | Cristi Álvarez"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
                 </li>
