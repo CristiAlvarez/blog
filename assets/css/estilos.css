@@ -22,6 +22,18 @@ ol {
     margin: 0;
 }
 
+ol li,
+ul li {
+    display: inline-block;
+}
+
+address ul li {
+    display: block;
+}
+address ul li a {
+    text-decoration: none;
+}
+
 /* Imágenes de fondo */
 .bgimg-1,
 .bgimg-2,
