@@ -74,6 +74,7 @@ article address ul li a {
 
 /* Imágenes Parallax */
 .ca-bgimg {
+    background-color: #222828;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
