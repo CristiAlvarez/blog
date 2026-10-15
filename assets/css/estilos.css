@@ -10,6 +10,15 @@
     --bg-portada: url("../img/fondoBlog2.webp");
     --bg-parallax2: url("../img/fotoPc.webp");
     --bg-parallax3: url("../img/contacto.webp");
+
+    --bg-trabajo1: url("../img/avatarCv.webp");
+    --bg-trabajo2: url("../img/codigocleopatra.webp");
+    --bg-trabajo3: url("../img/excavadora.webp");
+    --bg-trabajo4: url("../img/gatoGris360px.webp");
+    --bg-trabajo5: url("../img/tractor.webp");
+    --bg-trabajo6: url("../img/holamundo.webp");
+    --bg-trabajo7: url("../img/libros.webp");
+    --bg-trabajo8: url("../img/relojdearena.webp");
 }
 
 h1,
@@ -102,6 +111,44 @@ article address ul li a {
     background-image: var(--bg-parallax3);
 }
 
+.ca-bg-tarea {
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin: 0;
+}
+
+.ca-bg-trabajo1 {
+    background-image: var(--bg-trabajo1);
+    background-color: transparent;
+}
+
+.ca-bg-trabajo2 {
+    background-image: var(--bg-trabajo2);
+}
+
+.ca-bg-trabajo3 {
+    background-image: var(--bg-trabajo3);
+}
+
+.ca-bg-trabajo4 {
+    background-image: var(--bg-trabajo4);
+}
+
+.ca-bg-trabajo5 {
+    background-image: var(--bg-trabajo5);
+}
+
+.ca-bg-trabajo6 {
+    background-image: var(--bg-trabajo6);
+}
+
+.ca-bg-trabajo7 {
+    background-image: var(--bg-trabajo7);
+}
+
+.ca-bg-trabajo8 {
+    background-image: var(--bg-trabajo8);
+}
 .w3-wide {
     letter-spacing: 10px;
 }
