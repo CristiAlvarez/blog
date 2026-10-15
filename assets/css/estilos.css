@@ -6,6 +6,10 @@
 
     --font-family-titles: "Cinzel Decorative", serif;
     --font-family-texts: "Work Sans", sans-serif;
+
+    --bg-portada: url("../img/fondoBlog2.webp");
+    --bg-parallax2: url("../img/fotoPc.webp");
+    --bg-parallax3: url("../img/contacto.webp");
 }
 
 h1,
@@ -86,16 +90,16 @@ article address ul li a {
 }
 
 .ca-portada {
-    background-image: url("../img/fondoBlog2.webp");
+    background-image: var(--bg-portada);
     min-height: 100vh;
 }
 
 .ca-parallax-2 {
-    background-image: url("../img/fotoPc.webp");
+    background-image: var(--bg-parallax2);
 }
 
 .ca-parallax-3 {
-    background-image: url("../img/contacto.webp");
+    background-image: var(--bg-parallax3);
 }
 
 .w3-wide {
